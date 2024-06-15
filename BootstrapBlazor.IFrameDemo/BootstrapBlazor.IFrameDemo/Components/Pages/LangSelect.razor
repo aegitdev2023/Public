@@ -1,0 +1,73 @@
+﻿@inherits BootstrapComponentBase
+@inject IStringLocalizer<Foo> LocalLang
+<div @attributes="@AdditionalAttributes" class="@ClassString">
+    <label>@LocalLang["Language"]</label>
+    <Select Value="@SelectedCulture" OnSelectedItemChanged="@SetCulture">
+        <Options>
+            @foreach (var kv in Configuration.GetSupportCultures())
+            {
+                <SelectOption Text="@GetDisplayName(kv)" Value="@kv.Name" />
+            }
+        </Options>
+    </Select>
+</div>
+
+@code {
+    private string ClassString => CssBuilder.Default("culture-selector")
+        .AddClassFromAttributes(AdditionalAttributes)
+        .Build();
+
+
+    [Inject]
+    private ICultureStorage CultureStorage { get; set; }
+
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+
+    [Inject]
+    private IConfiguration Configuration { get; set; }
+
+    [Inject]
+    private IOptions<BootstrapBlazorOptions> BootstrapOptions { get; set; }
+
+    private string SelectedCulture { get; set; } = CultureInfo.CurrentUICulture.Name;
+
+    private async Task SetCulture(SelectedItem item)
+    {
+        if (CultureStorage.Mode == CultureStorageMode.Webapi)
+        {
+            // API MODE
+            if (SelectedCulture != item.Value)
+            {
+                var culture = item.Value;
+                var uri = new Uri(NavigationManager.Uri).GetComponents(UriComponents.PathAndQuery, UriFormat.Unescaped);
+                var query = $"?culture={Uri.EscapeDataString(culture)}&redirectUri={Uri.EscapeDataString(uri)}";
+                NavigationManager.NavigateTo("Culture/SetCulture" + query, forceLoad: true);
+            }
+        }
+        else
+        {
+            var cultureName = item.Value;
+            if (cultureName != CultureInfo.CurrentCulture.Name)
+            {
+                await JSRuntime.InvokeVoidAsync(identifier: "$.blazorCulture.set", cultureName);
+                var culture = new CultureInfo(cultureName);
+                CultureInfo.CurrentCulture = culture;
+                CultureInfo.CurrentUICulture = culture;
+
+                NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+            }
+        }
+    }
+
+    private string GetDisplayName(CultureInfo culture)
+    {
+        return culture.Name switch
+        {
+            "zh-CN" => "中文（简体）",
+            "zh-TW" => "中文（繁體）",
+            "en-US" => "English",
+            _ => ""
+        };
+    }
+}

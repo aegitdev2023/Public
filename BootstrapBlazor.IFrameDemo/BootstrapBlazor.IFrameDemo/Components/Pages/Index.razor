@@ -1,0 +1,17 @@
+﻿@page "/"
+@inject IStringLocalizer<Foo> LocalLang
+
+
+<PageTitle>@LocalLang["INIT"]</PageTitle>
+
+<h1>@LocalLang["Hello, world!"]</h1>
+
+
+@LocalLang["Welcome to your new app."]
+
+<SurveyPrompt Title=@LocalLang["How is Blazor working for you?"] />
+
+
+<p>
+    <b>@LocalLang["CurrentCulture"]</b>: @CultureInfo.CurrentCulture
+</p>

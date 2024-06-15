@@ -1,0 +1,80 @@
+﻿@page "/counter"
+<PageTitle>@LocalLang[sPageText]</PageTitle>
+
+<h1>@LocalLang[sPageText]</h1>
+
+<p role="status">@LocalLang["Current count"]: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">@LocalLang["Click me"]</button>
+<p>
+    <b>@LocalLang["CurrentCulture"]</b>: @CurCulture
+</p>
+<div>
+    <LangSelect></LangSelect>
+</div>
+<div style="height:735px;">
+    <IFrame Src="@FunctionUrl" allowpaymentrequest="true" sandbox="allow-same-origin"></IFrame>
+</div>
+
+@code {
+
+    [Parameter]
+    public string? FunctionUrl { get; set; } = "http://192.168.56.189:8201/DemoBlazor/10000001";
+
+    [Parameter]
+    public string? Function { get; set; }
+
+    public string? CurCulture { get; set; }
+
+    [Parameter]
+    public string? LType { get; set; }
+
+    [Parameter]
+    public string? EmpID { get; set; }
+
+    public string? LastUrl { get; set; } = "None";
+
+    public string? LastCulture { get; set; }
+
+    [Parameter]
+    public string? Host { get; set; } = "http://192.168.56.189:8201";
+
+    [Inject]
+    private IStringLocalizer<Foo> LocalLang { get; set; }
+    private int currentCount = 0;
+
+    private static string sPageText = "Counter";
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    /// <summary>
+    /// 加载页面渲染
+    /// </summary>
+    /// <param name="firstRender"></param>
+    /// <returns></returns>
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        ///https://www.blazor.zone/components?culture=en-us
+        ///https://learn.microsoft.com/en-us/
+
+        LType = string.IsNullOrWhiteSpace(LType) ? "en-us" : LType;
+        CurCulture = CultureInfo.CurrentCulture.Name;
+
+        if (CurCulture != LastCulture)
+        {
+            LastCulture = CurCulture;
+            FunctionUrl = $"{FunctionUrl}?culture={LastCulture}";
+        }
+
+        if (LastUrl != FunctionUrl)
+        {
+            LastUrl = FunctionUrl;
+            StateHasChanged();
+        }
+
+        await base.OnAfterRenderAsync(firstRender);
+    }
+}

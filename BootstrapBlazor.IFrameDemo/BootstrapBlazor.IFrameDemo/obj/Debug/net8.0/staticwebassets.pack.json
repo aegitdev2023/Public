@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BootstrapBlazor.IFrameDemo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BootstrapBlazor.IFrameDemo.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\Argo-C.png",
+      "PackagePath": "staticwebassets\\images\\Argo-C.png"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\Argo.png",
+      "PackagePath": "staticwebassets\\images\\Argo.png"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-1.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-10.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-10.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-11.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-11.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-12.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-12.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-13.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-13.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-14.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-14.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-15.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-15.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-16.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-16.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-17.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-17.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-18.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-18.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-19.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-19.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-2.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-20.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-20.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-21.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-21.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-22.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-22.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-23.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-23.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-24.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-24.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-3.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-3.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-4.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-4.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-5.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-5.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-6.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-6.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-7.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-7.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-8.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-8.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos\\WEB\\BootstrapBlazor.IFrameDemo\\BootstrapBlazor.IFrameDemo\\wwwroot\\images\\avatars\\150-9.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-9.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BootstrapBlazor.IFrameDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BootstrapBlazor.IFrameDemo.props",
+      "PackagePath": "build\\BootstrapBlazor.IFrameDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BootstrapBlazor.IFrameDemo.props",
+      "PackagePath": "buildMultiTargeting\\BootstrapBlazor.IFrameDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BootstrapBlazor.IFrameDemo.props",
+      "PackagePath": "buildTransitive\\BootstrapBlazor.IFrameDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
