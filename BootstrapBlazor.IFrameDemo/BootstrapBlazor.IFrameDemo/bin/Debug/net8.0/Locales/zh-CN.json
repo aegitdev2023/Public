@@ -1,0 +1,40 @@
+﻿{
+  "BootstrapBlazor.IFrameDemo.Data.Foo": {
+    "Name": "姓名",
+    "Language": "语言",
+    "Click me": "点击我",
+    "Hello, world!": "你好世界!",
+    "Welcome to your new app.": "欢迎使用您的新应用程序。",
+    "How is Blazor working for you?": "Blazor 如何为你工作？",
+    "CurrentCulture": "当前文化",
+    "Weather": "天气",
+    "Table": "表格",
+    "Counter": "计数器",
+    "Current count": "当前计数",
+    "Users": "花名册",
+    "Only Data": "只读数据",
+    "This component demonstrates showing data.": "此组件演示如何显示数据。",
+    "Loading...": "加载...",
+    "DateTime": "日期",
+    "Address": "地址",
+    "Count": "数量",
+    "Complete": "是/否",
+    "Education": "学历",
+    "Hobby": "爱好",
+    "Name.Required": "{0}是必填项",
+    "Address.Required": "{0}是必填项",
+    "Education.Required": "{0}是必选项",
+    "Hobby.Required": "请选择一种{0}",
+    "Name.PlaceHolder": "不可为空",
+    "Hobbys": "游泳,登山,打球,下棋",
+    "Foo.Name": "张三 {0}",
+    "Foo.Address": "上海市普陀区金沙江路 {0} 弄",
+    "Foo.Address2": "地球、中国、上海市普陀区金沙江路 {0} 弄 这里是超长单元格示例",
+    "Foo.BindValue": "绑定值"
+  },
+  "BootstrapBlazor.IFrameDemo.Data.EnumEducation": {
+    "PlaceHolder": "请选择 ...",
+    "Primary": "小学",
+    "Middel": "中学"
+  }
+}
